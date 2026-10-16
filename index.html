@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mi blog todo rancio</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="ventana" id="ventana">
+  <div class="barra"><span>Mis Fotos - Explorador de Internet</span><span class="botones"><button id="min" aria-label="Minimizar">_</button><button id="max" aria-label="Maximizar">□</button><button id="cerrarv" aria-label="Cerrar ventana">X</button></span></div>
+
+  <div class="banner">
+    <h1>mi blog :)</h1>
+    <p>detalles q encuentro y capturo con mis camaras</p>
+  </div>
+  <div class="aviso"><span>bienvenido a mi web?, suelo subir fotos con irregularidad, no hay horario :m</span></div>
+
+  <div class="cuerpo">
+    <aside>
+      <div class="caja"><h2>Menú</h2><div class="in menu">
+        <a href="#inicio">Inicio</a><a href="#fotos">Mis fotos</a><a href="#sobre">Sobre mí</a><a href="https://mail.google.com/mail/?view=cm&to=santiago.rarr@gmail.com&su=Hola%20desde%20tu%20web" target="_blank" rel="noopener">Contacto</a>
+      </div></div>
+      <div class="caja"><h2>Visitante número</h2><div class="in"><div class="contador" id="cont">000001</div><p class="chico">Gracias por visitar mi sitio.</p></div></div>
+    </aside>
+
+    <main>
+      <div class="caja" id="inicio"><h2>Bienvenido</h2><div class="in">
+        <p>Hola, esta es mi página de fotografía. Haz clic en cualquier foto para verla en grande y usa las flechas del teclado para pasar a la siguiente.</p>
+      </div></div>
+
+      <div class="caja" id="fotos"><h2>Mis fotos</h2><div class="in"><section class="miniaturas" id="mini" aria-label="Galería de fotos"></section></div></div>
+
+      <div class="caja" id="sobre"><h2>Sobre mí</h2><div class="in">
+        <h3>Hola, soy Santiago</h3>
+        <p>La fotografía es algo que disfruto mucho, por aqui la compartire. Fotografío principalmente con la Sony Cybershot DSC-w610.</p>
+        <p>Quieres mandarme o platicar algo, escríbeme a <a href="https://mail.google.com/mail/?view=cm&to=santiago.rarr@gmail.com&su=Hola%20desde%20tu%20web" target="_blank" rel="noopener">Contacto</a></p>
+      </div></div>
+    </main>
+  </div>
+
+  <div class="pie">
+    <span class="sello">hecho a manita</span><span class="sello">lol</span><span class="sello">1024 x 768</span><br>
+    Mejor visto en 1024x768 © <span id="anio"></span> Santiago ♦ Todas las fotos son mías
+  </div>
+</div>
+
+<p class="escritorio">La ventana se cerró. Haz clic en «Mis Fotos» abajo para abrirla otra vez.</p>
+
+<div class="tareas">
+  <span class="inicio">inicio</span>
+  <button id="tarea">Mis Fotos - Explorador</button>
+  <span class="reloj" id="reloj"></span>
+</div>
+
+<dialog id="visor" aria-label="Foto ampliada">
+  <div class="barra"><span id="vtit">Foto</span><button class="xbtn" id="cerrar" aria-label="Cerrar">X</button></div>
+  <div class="vis">
+    <img id="vimg" alt="">
+    <p id="vtxt"></p>
+    <div class="nav"><button id="ant">◄ Anterior</button><button id="sig">Siguiente ►</button></div>
+  </div>
+</dialog>
+
+<script src="galeria.js"></script>
+</body>
+</html>
