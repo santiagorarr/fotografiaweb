@@ -67,6 +67,7 @@ h3{margin:0 0 6px;font:bold 15px "Trebuchet MS",Verdana,sans-serif;color:var(--a
 .ventana.min > :not(.barra){display:none}
 .ventana.min .barra{border-radius:7px}
 .ventana.maxi{max-width:none;min-height:calc(100vh - 64px)}
+.ventana.min{min-height:0}
 .ventana.cerrada{display:none}
 
 .escritorio{display:none;margin-top:30vh;text-align:center;color:#fff;font-weight:bold;text-shadow:1px 1px #0a2a7a}
