@@ -4,7 +4,11 @@ const FOTOS = [
   { archivo: "fotos/DSC00002.JPG", titulo: "que pedazo feria chaval",    lugar: "Ciudad de México" },
   { archivo: "fotos/DSC00144.JPG", titulo: "Los Panchos :)",             lugar: "mi cuarto" },
   { archivo: "fotos/DSC00114.JPG", titulo: "el mar es inmenso",          lugar: "Acapulco" },
-  { archivo: "fotos/DSC00123.JPG", titulo: "pinto llover en la escuela", lugar: "CCH Azcapotzalco" }
+  { archivo: "fotos/DSC00123.JPG", titulo: "pinto llover en la escuela", lugar: "CCH Azcapotzalco" },
+  { archivo: "fotos/DSC00085.JPG", titulo: "osiqueeléctrico", lugar: "mikasa" },
+  { archivo: "fotos/DSC00082.JPG", titulo: "mojojoj", lugar: "eskuela" },
+  { archivo: "fotos/DSC00081.JPG", titulo: "fotopanoramicaouyea", lugar: "eskuela" },
+  { archivo: "fotos/Foto0925 (1).JPG", titulo: "acapulco de noche", lugar: "acapulco" }
 ];
 
 const mini = document.getElementById("mini");
