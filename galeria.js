@@ -8,7 +8,7 @@ const FOTOS = [
   { archivo: "fotos/DSC00085.JPG", titulo: "osiqueeléctrico", lugar: "mikasa" },
   { archivo: "fotos/DSC00082.JPG", titulo: "mojojoj", lugar: "eskuela" },
   { archivo: "fotos/DSC00081.JPG", titulo: "fotopanoramicaouyea", lugar: "eskuela" },
-  { archivo: "fotos/foto0925.JPG", titulo: "acapulco de noche", lugar: "acapulco" },
+  { archivo: "fotos/foto021.JPG", titulo: "acapulco de noche", lugar: "acapulco" },
   { archivo: "fotos/foto022.JPG", titulo: "owao", lugar: "cdmx" },
   { archivo: "fotos/foto023.JPG", titulo: "cute", lugar: "Biblioteca Vasconcelos" },
   { archivo: "fotos/foto024.JPG", titulo: "enelmarlavidaessabrosa", lugar: "acapulco" },
